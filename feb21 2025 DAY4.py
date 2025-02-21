@@ -1,0 +1,13 @@
+#Today i learned that simply just stringing commas and variables together can create cool interactive games. It's typically a very simple task, that can show creativity!
+MyName = input("What's your name?: ")
+myPowers = input("What are your powers?: ")
+myEnemy = input("Who is your enemy?: ")
+print(myName, "is an assasin who has the power of", myPowers, "going against", myEnemy)
+print (myName, "is going to kill", myEnemy, "with his", myPowers)
+print (myName, "Encounters a bear and is going to fight it")
+myAttack = input("What is your attack?: ")
+print (myName, "uses", myAttack, "to kill the bear")
+print (myName, "Encounters" ,myEnemy)
+myAttack2 = input("What is your attack?: ")
+print (myName, "uses", myAttack2, "to kill", myEnemy)
+print (myName, "Has slain", myEnemy)
